@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_agregar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cuc.peliculas.Agregar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="@string/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:layout_marginTop="40dp"
+                android:textSize="30sp"
+                android:layout_marginBottom="20dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/nombePelicula">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/txtNombre"
+                    android:layout_weight="1"
+                    android:hint="@string/nombre"
+                    android:textStyle="normal|bold" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/descripcionPelicula">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="@string/descripcion"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="top"
+                    android:layout_height="80dp"
+                    android:id="@+id/txtDescripcion"
+                    android:textStyle="normal|bold" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:text="@string/imagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cmbImg"
+                android:layout_weight="1"
+                android:layout_marginBottom="20dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="@string/guardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button"
+                    android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:text="@string/borrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button2"
+                    android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
