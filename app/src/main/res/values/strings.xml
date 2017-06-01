@@ -4,9 +4,22 @@
     <string name="titulo">Películas</string>
     <string name="nombre">Nombre</string>
     <string name="descripcion">Descripción</string>
-    <string name="imagen">Img</string>
+    <string name="genero">Genero</string>
     <string name="guardar">Guardar</string>
     <string name="borrar">Borrar</string>
     <string name="error1">Digite el nombre</string>
     <string name="error2">Escriba una breve descripción</string>
+    <string name="guardado">Película guardada satisfactoriamente!</string>
+    <string name="ima1">Comedia</string>
+    <string name="ima2">Acción</string>
+    <string name="ima3">Terror</string>
+    <string name="ima4">Romance</string>
+    <string name="ima5">Animada</string>
+    <string-array name="imagenes">
+        <item>@string/ima1</item>
+        <item>@string/ima2</item>
+        <item>@string/ima3</item>
+        <item>@string/ima4</item>
+        <item>@string/ima5</item>
+    </string-array>
 </resources>

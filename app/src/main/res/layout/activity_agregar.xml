@@ -65,7 +65,7 @@
             </android.support.design.widget.TextInputLayout>
 
             <TextView
-                android:text="@string/imagen"
+                android:text="@string/genero"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2"
@@ -91,7 +91,8 @@
                     android:id="@+id/button"
                     android:layout_weight="1"
                     style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
-                    android:textStyle="normal|bold" />
+                    android:textStyle="normal|bold"
+                    android:onClick="guardar" />
 
                 <Button
                     android:text="@string/borrar"
@@ -100,7 +101,8 @@
                     android:id="@+id/button2"
                     android:layout_weight="1"
                     style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
-                    android:textStyle="normal|bold" />
+                    android:textStyle="normal|bold"
+                    android:onClick="borrar" />
 
             </LinearLayout>
 
