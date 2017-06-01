@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="borrar">Clean</string>
+    <string name="error1">Type the name</string>
+    <string name="descripcion">Description</string>
+    <string name="error2">Type a short descrption</string>
+    <string name="genero">Type</string>
+    <string name="guardado">Movie sucessfully saved!</string>
+    <string name="guardar">Saved</string>
+    <string name="ima1">Comedy</string>
+    <string name="ima2">Action</string>
+    <string name="ima3">Terror</string>
+    <string name="ima4">Romance</string>
+    <string name="ima5">Animated</string>
+    <string name="nombre">Name</string>
+    <string name="titulo">Movies</string>
+</resources>

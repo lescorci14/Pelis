@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Peliculas</string>
+    <string name="app_name">Movies</string>
     <string name="action_settings">Settings</string>
     <string name="titulo">Películas</string>
     <string name="nombre">Nombre</string>
